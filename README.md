@@ -4,12 +4,14 @@ Projeto da Cadeira de Infraestrutura de Comunicação (IF678) - Aplicação segu
 
 Prof.: Paulo Gonçalves <br />
 Alunos: <br />
-■ Jonatas de Oliveira Clementino (joc) - https://github.com/JonatasDeOliveira <br />
-■ Lucas Alves Rufino (lar) - https://github.com/Lucas-Rufino <br />
-■ Miriane da Silva Trajano Nascimento (mstn)  <br />
-■ Rodrigo de Lima Oliveira (rlo) - https://github.com/rllima  <br />
-■ Ullayne Fernandes Farias de Lima (uffl) - https://github.com/ullayne02  <br />
-■ Valdemiro Rosa Vieira Santos (vrvs) - https://github.com/vrvs  <br />
+```
+Jonatas de Oliveira Clementino (joc) - https://github.com/JonatasDeOliveira <br />
+Lucas Alves Rufino (lar) - https://github.com/Lucas-Rufino <br />
+Miriane da Silva Trajano Nascimento (mstn)  <br />
+Rodrigo de Lima Oliveira (rlo) - https://github.com/rllima  <br />
+Ullayne Fernandes Farias de Lima (uffl) - https://github.com/ullayne02  <br />
+Valdemiro Rosa Vieira Santos (vrvs) - https://github.com/vrvs  <br />
+```
 Projeto 2016 - 2 <br />
 Peso: 30% <br />
 Especificação: Versão 2.0 de 2 4/11/201 6 <br />
