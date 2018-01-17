@@ -57,8 +57,7 @@ pelo destinatário; <br />
 ■ Arquivos e mensagens de usuários devem ser criptografados, só podendo ser
 decifrados pelo usuário receptor. Conceitos básicos de criptografia são
 apresentados no livro do Kurose e alguns exemplos de criptografia usando java
-são encontrados em http://www.devmedia.com.br/utilizando-criptografia-simetrica-
-em-java/ <br />
+são encontrados em http://www.devmedia.com.br/utilizando-criptografia-simetrica-em-java/ <br />
 ■ O algoritmo de criptografia (e consequente API) a ser usado é uma decisão do
 grupo e a qualidade do algoritmo escolhido não influencia na avaliação do projeto;
 ■ o servidor não poderá saber como decifrar mensagens (de chat) e arquivos
@@ -108,7 +107,7 @@ projeto.
 ```
 ## 3. Avaliação
 
-Serão observados os seguintes itens para a atribuição da nota ao projeto:
+Serão observados os seguintes itens para a atribuição da nota ao projeto: <br />
 ■ Se o software está realmente funcional; <br />
 ■ Se os critérios mínimos definidos foram atendidos; <br />
 ■ A qualidade da apresentação (não é preciso fazer ppt); <br />
