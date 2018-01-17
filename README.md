@@ -3,7 +3,8 @@
 Projeto da Cadeira de Infraestrutura de Comunicação (IF678) - Aplicação segura de chat e transferência de arquivos
 
 Prof.: Paulo Gonçalves <br />
-Alunos:```
+Alunos:
+```
 Jonatas de Oliveira Clementino (joc) - https://github.com/JonatasDeOliveira 
 Lucas Alves Rufino (lar) - https://github.com/Lucas-Rufino 
 Miriane da Silva Trajano Nascimento (mstn)  
