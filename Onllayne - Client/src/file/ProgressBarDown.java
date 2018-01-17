@@ -1,0 +1,51 @@
+package file;
+
+
+import javax.swing.JLabel;
+import javax.swing.JProgressBar;
+
+import gui.GUI;
+
+import java.text.DecimalFormat;
+
+public class ProgressBarDown implements Runnable {
+	
+	private JProgressBar pBar;
+	private GUI gui;
+	private JLabel tempo;
+	private int porcentagem;
+	private FileReciev fileR;
+	private JLabel rtt;
+	JLabel vel;
+	
+	public ProgressBarDown(JProgressBar pBar, JLabel tempo, JLabel vel, JLabel rtt, FileReciev fileR, GUI gui){
+		this.gui = gui;
+		this.pBar = pBar;
+		this.pBar.setStringPainted(true);
+		this.tempo = tempo;
+		this.porcentagem = 0;
+		this.rtt = rtt;
+		this.vel = vel;
+		this.fileR = fileR;
+	}
+
+	public void run(){
+		this.pBar.setMaximum(100);
+		long init = System.currentTimeMillis();
+		DecimalFormat df = new DecimalFormat("#.##");
+		while(true){
+			this.porcentagem = (int)fileR.getPercent();
+			if(System.currentTimeMillis()-init>=1000) {
+				init = System.currentTimeMillis();
+				this.rtt.setText("RTT Estimado: " + df.format(this.fileR.getRTT()/1000000.0)+" ms");
+			}
+			this.vel.setText("Velocidade: " + this.fileR.getVelocidade()+" MB/s");
+			this.tempo.setText("Tempo final: " + fileR.getRemainingTime()+" s");
+		    //this.label.setText(this.porcentagem+"%");
+			this.pBar.setValue(this.porcentagem);
+			if(this.porcentagem>=100) break;
+		}
+		if(!fileR.isCanceled())
+			gui.downloadFinish(fileR.getPort());
+	}
+}
