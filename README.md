@@ -59,13 +59,13 @@ decifrados pelo usuário receptor. Conceitos básicos de criptografia são
 apresentados no livro do Kurose e alguns exemplos de criptografia usando java
 são encontrados em http://www.devmedia.com.br/utilizando-criptografia-simetrica-em-java/ <br />
 ■ O algoritmo de criptografia (e consequente API) a ser usado é uma decisão do
-grupo e a qualidade do algoritmo escolhido não influencia na avaliação do projeto;
+grupo e a qualidade do algoritmo escolhido não influencia na avaliação do projeto; <br />
 ■ o servidor não poderá saber como decifrar mensagens (de chat) e arquivos
 armazenados; <br />
 ■ o servidor deve usar o modelo store and foward ao receber mensagens de chat e
 arquivos; <br />
 ■ a aplicação deverá permitir ao usuário saber o status de envio, entrega e
-leitura/visualização de arquivos e mensagens. Podem se inspirar no whatsapp;
+leitura/visualização de arquivos e mensagens. Podem se inspirar no whatsapp; <br />
 ■ a aplicação do usuário deverá permiti-lo configurar através da interface gráfica o IP
 ou nome do servidor; <br />
 ■ a aplicação cliente deverá permitir ao usuário “iniciar/pausar/cancelar/reiniciar”
